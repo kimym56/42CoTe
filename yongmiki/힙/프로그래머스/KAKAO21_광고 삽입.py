@@ -45,3 +45,4 @@ def int_to_str(time):
     time = time % 60
     s = '0' + str(time) if time < 10 else str(time)
     return h + ':' + m + ':' + s
+#https://dev-note-97.tistory.com/156
